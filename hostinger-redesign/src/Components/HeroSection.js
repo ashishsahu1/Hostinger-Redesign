@@ -1,5 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
+import banner from '../assets/banner.png'
 
 function HeroSection() {
   return (
@@ -12,10 +13,11 @@ function HeroSection() {
               Join 1,278,620 website owners who are building their businesses
               online.
             </p>
+            <button className="str-btn">Get Started</button>
           </div>
           <div className="hdimg">
             <img
-              src="https://assets.hostinger.com/images/homepage2021/header-with-user-counter/header-img-ba78ca58ef.png"
+              src={banner}
               alt=""
               srcset=""
             />

@@ -5,6 +5,19 @@
   margin: 0;
 }
 
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #3e2589;
+  outline: 1px solid #673de6;
+}
+
 body,
 html {
   /* font-family: Monte,Roboto, Helvetica, sans-serif; */
@@ -13,5 +26,5 @@ html {
 }
 
 body{
-  overflow: hidden;
+  overflow-x: hidden;
 }

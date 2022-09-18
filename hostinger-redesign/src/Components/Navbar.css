@@ -108,7 +108,7 @@
 }
 
 .log-button p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 300;
     color: #fff;
 }
@@ -195,12 +195,13 @@
 
     .navbar-list {
         /* display: none; */
-        width: 100%;
+        width: 60%;
         height: 100vh;
         position: absolute;
         top: 0;
-        left: 0;
-        background-color: #1e1d30;
+        right: 0;
+        font-size: 1.5rem;
+        background-color: #673de6;
         display: flex;
         justify-content: center;
         align-items: center;
