@@ -1,0 +1,14 @@
+.logoField{
+    flex-wrap: wrap;
+}
+
+.logoField img{
+    margin: 1rem;
+    width: 14rem;
+}
+
+@media(max-width:65em){
+    .logoField img{
+        width: 10rem;
+    }
+}
