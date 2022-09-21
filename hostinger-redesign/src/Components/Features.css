@@ -2,23 +2,80 @@
     width: 100vw;
     height: auto;
     margin: 0;
-    padding: 0;
+    padding: 4rem 0 0 0;
 }
 
 .features-main .feature-row{
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+
 }
 
 .features-main .feature-txt{
-    background-color: aqua;
-    width: 50vw;
-    height: 70vh;
-    min-width: 30rem;
+    /* background-color: aqua; */
+    width: 40vw;
+    height: 60vh;
+    /* min-width: 30rem; */
+    border-radius: 2rem;
+    
+}
+
+.st{
+    background: linear-gradient(270deg, rgba(103, 61, 230, 0) 0%, rgb(247, 247, 247) 100%);
+}
+
+.stt{
+    background: linear-gradient(90deg, rgba(103, 61, 230, 0) 0%, rgb(247, 247, 247) 100%);
+}
+
+.features-main .rv{
+    flex-wrap: wrap-reverse;
 }
 
 .features-main .feature-graphic{
-    background-color: brown;
+    /* background-color: brown; */
     width: 50vw;
-    height: 70vh;
-    min-width: 30rem;
+    height: 60vh;
+    min-width: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-main .feature-row .feature-graphic img{
+    width: auto;
+    height: 25rem;
+}
+
+.features-main .feature-row .feature-txt {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-main .feature-row .feature-txt .f-txt{
+    width: 30vw;
+}
+
+.features-main .feature-row .feature-txt .f-txt h3{
+    color: gray;
+}
+
+.features-main .feature-row .feature-txt .f-txt h2{
+    color: #2f1c6a;
+    font-size: 2.5rem;
+    margin: 1rem 0 2rem 0;
+}
+.features-main .feature-row .feature-txt .f-txt p{
+    font-size: 1rem;
+    padding-bottom: 3rem;
+}
+
+@media (max-width: 58em){
+    .features-main .feature-row .feature-txt {
+        width: 70vw;
+    }
+    .features-main .feature-row .feature-txt .f-txt{
+        width: 50vw;
+    }
 }

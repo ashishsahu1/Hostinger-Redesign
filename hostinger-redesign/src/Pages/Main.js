@@ -18,7 +18,7 @@ function Main() {
       <Price/>
       <ServiceList/>
       <Search/>
-      {/* <Features/> */}
+      <Features/>
       <MoneyBack/>
       <Footer/>
     </div>
