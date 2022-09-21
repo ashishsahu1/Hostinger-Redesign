@@ -1,0 +1,24 @@
+.features-main{
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.features-main .feature-row{
+    flex-wrap: wrap-reverse;
+}
+
+.features-main .feature-txt{
+    background-color: aqua;
+    width: 50vw;
+    height: 70vh;
+    min-width: 30rem;
+}
+
+.features-main .feature-graphic{
+    background-color: brown;
+    width: 50vw;
+    height: 70vh;
+    min-width: 30rem;
+}

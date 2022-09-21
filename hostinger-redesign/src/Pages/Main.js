@@ -1,6 +1,8 @@
 import React from 'react'
+import Features from '../Components/Features';
 import HeroSection from '../Components/HeroSection'
 import LogoField from '../Components/LogoField';
+import MoneyBack from '../Components/MoneyBack';
 import Navbar from '../Components/Navbar'
 import Price from '../Components/Price';
 import Search from '../Components/Search';
@@ -15,6 +17,8 @@ function Main() {
       <Price/>
       <ServiceList/>
       <Search/>
+      {/* <Features/> */}
+      <MoneyBack/>
     </div>
   );
 }

@@ -1,0 +1,39 @@
+.moneyback-main{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.money-section{
+    text-align: center;
+    /* height: 50vh; */
+    width: 100vw;
+    color: #2f1c6a;
+}
+
+.money-section h2{
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.money-section p{
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.money-section button{
+    background-color: #fc5185;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    
+    padding: 1rem 5rem;
+    border-radius: 50px;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
