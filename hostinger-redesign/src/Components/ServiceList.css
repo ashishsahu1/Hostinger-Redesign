@@ -1,5 +1,5 @@
 .sl{
-    height:70vh;
+    height:60vh;
     /* padding-top: 5vh; */
     margin: 0;
     color: #643be0;
@@ -17,6 +17,7 @@
     text-align: center;
     padding: 3rem 3rem 0 3rem;
     /* color: #fff; */
+    color: #2f1c6a;
 }
 
 .ser-lst{
@@ -29,7 +30,7 @@
 .si-li{
     justify-content: flex-start;
     margin-left:5rem ;
-    margin-right: 5rem;
+    margin-right: 2rem;
     padding: 1rem;
     text-align: left;
     transition: 0.5s;
@@ -55,7 +56,8 @@
 
 @media(max-width:80em){
     .sl{
-        height: 80vh;
+        height: 70vh;
+        /* padding-bottom: 1rem; */
     }
 
     .sl .cnt-sl{
@@ -70,6 +72,11 @@
 @media(max-width:55em) {
     .sl{
         height: 100vh;
+        margin-bottom: 5rem;
+    }
+
+    .si-li{
+        margin: none;
     }
 
     .sl .cnt-sl{

@@ -3,6 +3,7 @@ import HeroSection from '../Components/HeroSection'
 import LogoField from '../Components/LogoField';
 import Navbar from '../Components/Navbar'
 import Price from '../Components/Price';
+import Search from '../Components/Search';
 import ServiceList from '../Components/ServiceList';
 
 function Main() {
@@ -13,6 +14,7 @@ function Main() {
       <LogoField/>
       <Price/>
       <ServiceList/>
+      <Search/>
     </div>
   );
 }
