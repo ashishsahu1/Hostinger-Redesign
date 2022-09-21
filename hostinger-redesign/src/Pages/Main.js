@@ -1,5 +1,6 @@
 import React from 'react'
 import Features from '../Components/Features';
+import Footer from '../Components/Footer';
 import HeroSection from '../Components/HeroSection'
 import LogoField from '../Components/LogoField';
 import MoneyBack from '../Components/MoneyBack';
@@ -19,6 +20,7 @@ function Main() {
       <Search/>
       {/* <Features/> */}
       <MoneyBack/>
+      <Footer/>
     </div>
   );
 }

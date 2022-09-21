@@ -1,10 +1,10 @@
 .search-section{
-    background-color: #643be0;
     height: 50vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(0deg, rgba(103, 61, 230, 1) 0%, rgba(133, 92, 255, 1) 100%);
 }
 
 .search-section .ser-sec{
