@@ -38,7 +38,7 @@ function Price() {
               <span>/mo</span>
             </h3>
             <p>₹249.00/mo when you renew</p>
-            <button>Select</button>
+            <button type="submit">Select</button>
           </div>
           <a className="ft" href="#">
             All Features

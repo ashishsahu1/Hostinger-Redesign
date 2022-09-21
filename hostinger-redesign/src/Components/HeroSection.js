@@ -13,14 +13,12 @@ function HeroSection() {
               Join 1,278,620 website owners who are building their businesses
               online.
             </p>
-            <button className="str-btn">Get Started</button>
+            <button type="submit" className="str-btn">
+              Get Started
+            </button>
           </div>
           <div className="hdimg">
-            <img
-              src={banner}
-              alt=""
-              srcset=""
-            />
+            <img src={banner} alt="" srcset="" />
           </div>
         </div>
 

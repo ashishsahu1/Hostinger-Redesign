@@ -139,6 +139,7 @@ p {
     border-radius: 50px;
     outline: none;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .hdimg{
