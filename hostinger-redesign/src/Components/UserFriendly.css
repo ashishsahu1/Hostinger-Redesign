@@ -1,0 +1,52 @@
+.userfriend-section{
+    background: linear-gradient(0deg, rgba(103, 61, 230, 1) 0%, rgba(133, 92, 255, 1) 100%);
+    height: auto;
+    text-align: center;
+}
+
+.userfriend-section .userfriend-title h2{
+    padding: 2rem 0 0 0;
+    font-size: 2rem;
+    text-align: center;
+    /* padding: 3rem 0rem 0 3rem; */
+    color: #fff;
+}
+
+.dash{
+    width: 50vw;
+    height: auto;
+}
+
+.userfriend-section .userfriend-tiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 5rem 2rem 5rem;
+}
+
+.userfriend-section .userfriend-tiles .fd-tt{
+    border-radius: 2rem;
+    color: #fff;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userfriend-section .userfriend-tiles .fd-tt .fd-icon{
+    width: 3rem;
+    height: 3rem;
+    color: white;
+}
+
+.userfriend-section .userfriend-tiles .fd-tt h3{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    font-weight: 600;
+}
+
+.userfriend-section .userfriend-tiles .fd-tt p{
+    color: #fff;
+}
+

@@ -8,6 +8,7 @@ import Navbar from '../Components/Navbar'
 import Price from '../Components/Price';
 import Search from '../Components/Search';
 import ServiceList from '../Components/ServiceList';
+import Userfriendly from '../Components/Userfriendly';
 
 function Main() {
   return (
@@ -19,6 +20,7 @@ function Main() {
       <ServiceList/>
       <Search/>
       <Features/>
+      <Userfriendly/>
       <MoneyBack/>
       <Footer/>
     </div>
