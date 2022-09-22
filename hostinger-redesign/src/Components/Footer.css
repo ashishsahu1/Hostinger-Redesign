@@ -145,4 +145,8 @@
     .pich-black{
         height: auto;
     }
+
+    .footer-section .right-foot{
+        flex-wrap: wrap;
+    }
 }

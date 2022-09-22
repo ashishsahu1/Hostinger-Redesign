@@ -71,7 +71,7 @@
 
 @media(max-width:55em) {
     .sl{
-        height: 100vh;
+        height: auto;
         margin-bottom: 5rem;
     }
 
